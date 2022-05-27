@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		8425D42E2836838500E5BB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D42D2836838500E5BB9F /* AppDelegate.swift */; };
 		8425D4302836838500E5BB9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D42F2836838500E5BB9F /* SceneDelegate.swift */; };
-		8425D4322836838500E5BB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D4312836838500E5BB9F /* ViewController.swift */; };
+		8425D4322836838500E5BB9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D4312836838500E5BB9F /* LoginViewController.swift */; };
 		8425D4352836838500E5BB9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425D4332836838500E5BB9F /* Main.storyboard */; };
 		8425D4372836838700E5BB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425D4362836838700E5BB9F /* Assets.xcassets */; };
 		8425D43A2836838700E5BB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425D4382836838700E5BB9F /* LaunchScreen.storyboard */; };
 		8425D4452836838700E5BB9F /* AutoFillOTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D4442836838700E5BB9F /* AutoFillOTPTests.swift */; };
 		8425D44F2836838700E5BB9F /* AutoFillOTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D44E2836838700E5BB9F /* AutoFillOTPUITests.swift */; };
 		8425D4512836838700E5BB9F /* AutoFillOTPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425D4502836838700E5BB9F /* AutoFillOTPUITestsLaunchTests.swift */; };
+		84CE735F2836993E0089995F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE735E2836993E0089995F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		8425D42A2836838500E5BB9F /* AutoFillOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoFillOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425D42D2836838500E5BB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8425D42F2836838500E5BB9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8425D4312836838500E5BB9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8425D4312836838500E5BB9F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8425D4342836838500E5BB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8425D4362836838700E5BB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8425D4392836838700E5BB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		8425D44A2836838700E5BB9F /* AutoFillOTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoFillOTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425D44E2836838700E5BB9F /* AutoFillOTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFillOTPUITests.swift; sourceTree = "<group>"; };
 		8425D4502836838700E5BB9F /* AutoFillOTPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFillOTPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84CE735E2836993E0089995F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				8425D42D2836838500E5BB9F /* AppDelegate.swift */,
 				8425D42F2836838500E5BB9F /* SceneDelegate.swift */,
-				8425D4312836838500E5BB9F /* ViewController.swift */,
+				8425D4312836838500E5BB9F /* LoginViewController.swift */,
+				84CE735E2836993E0089995F /* ProfileViewController.swift */,
 				8425D4332836838500E5BB9F /* Main.storyboard */,
 				8425D4362836838700E5BB9F /* Assets.xcassets */,
 				8425D4382836838700E5BB9F /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8425D4322836838500E5BB9F /* ViewController.swift in Sources */,
+				8425D4322836838500E5BB9F /* LoginViewController.swift in Sources */,
 				8425D42E2836838500E5BB9F /* AppDelegate.swift in Sources */,
+				84CE735F2836993E0089995F /* ProfileViewController.swift in Sources */,
 				8425D4302836838500E5BB9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z83R8NCYV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AutoFillOTP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z83R8NCYV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AutoFillOTP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
